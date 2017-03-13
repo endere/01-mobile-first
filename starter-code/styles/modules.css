@@ -56,9 +56,15 @@
   font-weight: bold;
   text-decoration: none;
 }
-
-/* TODO: Now add styles for how things should look on a larger screen:
-         - Hide the hamburger.
-         - Main should be all on one row, with padding spaced better for a larger screen.
-         - Just, ya know, try to make it look good! */
-/* @media only screen... */
+@media screen and (min-width: 700px){
+  .burger {
+    visibility: hidden;
+  }
+  .main-nav li {
+    display: inline;
+    margin: 20px;
+  }
+  .main-nav ul {
+    display: block;
+  }
+}
