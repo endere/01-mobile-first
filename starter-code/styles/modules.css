@@ -7,11 +7,18 @@
   float: left;
   padding: 0 0 .2em 1em;
 }
-
-/* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
-
+.burger{
+  float:right;
+}
+.bar{
+  background-color: black;
+  margin: 6px;
+  height: 5px;
+  width: 35px;
+}
 .main-nav {
   padding: 0.1em;
+
 }
 
 .main-nav ul {
